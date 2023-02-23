@@ -62,11 +62,14 @@ With plotly we can create more than 40 charts and every plot can be created usin
 **Example 2:**
 ```Python
 import plotly.express as px
+
 df = px.data.iris().head(20)
-fig = px.line(df, x="sepal_width",y="sepal_length",
-color="sepal_length")
+
+fig = px.line(df, x="sepal_width",y="sepal_length",color="sepal_length")
+
 fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/LinePlot2.png)
 Refer to the below article to get detailed information about the line charts.
 - [Line Plot in plotly](https://www.geeksforgeeks.org/line-chart-using-plotly-in-python/?ref=lbp)
 - [Line Plot official documentation ](https://plotly.com/python/line-charts/)
@@ -74,14 +77,18 @@ Refer to the below article to get detailed information about the line charts.
 A **bar chart** is a pictorial representation of data that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent. In other words, it is the pictorial representation of dataset. These data sets contain the numerical values of variables that represent the length or height.
 **Example:**
 ```Python
-    import plotly.express as px
-    # using the iris dataset
-    df = px.data.iris()
-    # plotting the bar chart
-    fig = px.bar(df, x="sepal_width", y="sepal_length")
-    # showing the plot
-    fig.show()
+import plotly.express as px
+
+# using the iris dataset
+df = px.data.iris()
+
+# plotting the bar chart
+fig = px.bar(df, x="sepal_width", y="sepal_length")
+
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/BarChart.png)
 Refer to the below articles to get detailed information about the bar chart.
 
 -   [Bar chart using Plotly in Python](https://www.geeksforgeeks.org/bar-chart-using-plotly-in-python/)
@@ -91,14 +98,17 @@ Refer to the below articles to get detailed information about the bar chart.
 A **histogram** contains a rectangular area to display the statistical information which is proportional to the frequency of a variable and its width in successive numerical intervals. A graphical representation that manages a group of data points into different specified ranges. It has a special feature that shows no gaps between the bars and similar to a vertical bar graph.
 **Example:**
 ```Python
-	import plotly.express as px
-	# using the iris dataset
-	df = px.data.iris()
-	# plotting the histogram
-	fig = px.histogram(df, x="sepal_length", y="petal_width")
-	# showing the plot
-	fig.show()
+import plotly.express as px
+# using the iris dataset
+df = px.data.iris()
+
+# plotting the histogram
+fig = px.histogram(df, x="sepal_length", y="petal_width")
+
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Histogram.png)
 Refer to the below articles to get detailed information about the histograms.
 
 -   [Histogram using Plotly in Python](https://www.geeksforgeeks.org/histogram-using-plotly-in-python/)
@@ -111,31 +121,32 @@ A **bubble plot**  is a scatter plot with bubbles (color-filled circles). Bubble
 
 **Example 1:** Scatter Plot
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# using the iris dataset
-	df = px.data.iris()
+# using the iris dataset
+df = px.data.iris()
 
-	# plotting the scatter chart
-	fig = px.scatter(df, x="species", y="petal_width")
+# plotting the scatter chart
+fig = px.scatter(df, x="species", y="petal_width")
 
-	# showing the plot
-	fig.show()
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Scatter.png)
 **Example 2:** Bubble Plot
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# using the iris dataset
-	df = px.data.iris()
+# using the iris dataset
+df = px.data.iris()
 
-	# plotting the bubble chart
-	fig = px.scatter(df, x="species", y="petal_width",
-					size="petal_length", color="species")
+# plotting the bubble chart
+fig = px.scatter(df, x="species", y="petal_width",size="petal_length", color="species")
 
-	# showing the plot
-	fig.show()
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Bubble.png)
 Refer to the below articles to get detailed information about the scatter plots and bubble plots.
 
 -   [plotly.express.scatter() function in Python](https://www.geeksforgeeks.org/plotly-express-scatter-function-in-python/)
@@ -147,17 +158,18 @@ A **pie chart** is a circular statistical graphic, which is divided into slices 
 
 **Example:**
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# using the tips dataset
-	df = px.data.tips()
+# using the tips dataset
+df = px.data.tips()
 
-	# plotting the pie chart
-	fig = px.pie(df, values="total_bill", names="day")
+# plotting the pie chart
+fig = px.pie(df, values="total_bill", names="day")
 
-	# showing the plot
-	fig.show()
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Pie.png)
 Refer to the below articles to get detailed information about the pie charts.
 
 -   [Pie plot using Plotly in Python](https://www.geeksforgeeks.org/pie-plot-using-plotly-in-python/)
@@ -166,17 +178,18 @@ A **Box Plot**  is also known as Whisker plot is created to display the summary 
 
 **Example:**
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# using the tips dataset
-	df = px.data.tips()
+# using the tips dataset
+df = px.data.tips()
 
-	# plotting the box chart
-	fig = px.box(df, x="day", y="total_bill")
+# plotting the box chart
+fig = px.box(df, x="day", y="total_bill")
 
-	# showing the plot
-	fig.show()
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Box.png)
 Refer to the below articles to get detailed information about box plots.
 
 -   [Box Plot using Plotly in Python](https://www.geeksforgeeks.org/box-plot-using-plotly-in-python/)
@@ -187,36 +200,38 @@ Refer to the below articles to get detailed information about box plots.
 
 **Example:**
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# using the tips dataset
-	df = px.data.tips()
+# using the tips dataset
+df = px.data.tips()
 
-	# plotting the violin chart
-	fig = px.violin(df, x="day", y="total_bill")
+# plotting the violin chart
+fig = px.violin(df, x="day", y="total_bill")
 
-	# showing the plot
-	fig.show()
+# showing the plot
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Violin.png)
 Refer to the below articles to get detailed information about the violin plots.
 
--   Violin Plots using Plotly
+-   [Violin Plots using Plotly](https://plotly.com/python/violin/)
 8. **Gantt Charts**
 **Generalized Activity Normalization Time Table (GANTT) chart**  is type of chart in which series of horizontal lines are present that show the amount of work done or production completed in given period of time in relation to amount planned for those projects.
 
 **Example:**
 ```Python
-	import plotly.figure_factory as ff
+import plotly.figure_factory as ff
 
-	# Data to be plotted
-	df = [dict(Task="A", Start='2020-01-01', Finish='2009-02-02'),
-		dict(Task="Job B", Start='2020-03-01', Finish='2020-11-11'),
-		dict(Task="Job C", Start='2020-08-06', Finish='2020-09-21')]
+# Data to be plotted
+df = [dict(Task="A", Start='2020-01-01', Finish='2009-02-02'),
+	  dict(Task="Job B", Start='2020-03-01', Finish='2020-11-11'),
+	  dict(Task="Job C", Start='2020-08-06', Finish='2020-09-21')]
 
-	# Creating the plot
-	fig = ff.create_gantt(df)
-	fig.show()
+# Creating the plot
+fig = ff.create_gantt(df)
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Gantt.png)
 Refer to the below articles to get detailed information about the Gantt Charts.
 -   [Gantt Chart in Plotly](https://www.geeksforgeeks.org/gantt-chart-in-plotly/)
 9. **3D Line Plots**
@@ -224,17 +239,17 @@ Line plot in plotly is much accessible and illustrious annexation to plotly whic
 
 **Example:**
 ```Python
-	import plotly.express as px
+import plotly.express as px
 
-	# data to be plotted
-	df = px.data.tips()
+# data to be plotted
+df = px.data.tips()
 
-	# plotting the figure
-	fig = px.line_3d(df, x="sex", y="day",
-					z="time", color="sex")
+# plotting the figure
+fig = px.line_3d(df, x="sex", y="day",z="time", color="sex")
 
-	fig.show()
+fig.show()
 ``` 
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Line3D.png)
 Refer to the below articles to get detailed information about the 3D line charts.
 
 -   [plotly.express.line_3d() function in Python](https://www.geeksforgeeks.org/plotly-express-line_3d-function-in-python/)
@@ -243,18 +258,14 @@ Refer to the below articles to get detailed information about the 3D line charts
 **3D Scatter Plot**  can plot two-dimensional graphics that can be enhanced by mapping up to three additional variables while using the semantics of hue, size, and style parameters. All the parameter control visual semantic which are used to identify the different subsets. Using redundant semantics can be helpful for making graphics more accessible. It can be created using the scatter_3d function of plotly.express class.
 **Example:**
 ```Python
-	import plotly.express as px
-
-	# Data to be plotted
-	df = px.data.iris()
-
-	# Plotting the figure
-	fig = px.scatter_3d(df, x = 'sepal_width',
-						y = 'sepal_length',
-						z = 'petal_width',
-						color = 'species')
-	fig.show()
+import plotly.express as px
+# Data to be plotted
+df = px.data.iris()
+# Plotting the figure
+fig = px.scatter_3d(df, x = 'sepal_width',y = 'sepal_length',z = 'petal_width',color = 'species')
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Scatter3D.png)
 Refer to the below articles to get detailed information about the 3D scatter plot.
 
 -   [3D scatter plot using Plotly in Python](https://www.geeksforgeeks.org/3d-surface-plots-using-plotly-in-python/)
@@ -264,19 +275,20 @@ Refer to the below articles to get detailed information about the 3D scatter plo
 **Surface plot**  is those plot which has three-dimensions data which is X, Y, and Z. Rather than showing individual data points, the surface plot has a functional relationship between dependent variable Y and have two independent variables X and Z. This plot is used to distinguish between dependent and independent variables.
 **Example:**
 ```Python
-	import plotly.graph_objects as go
-	import numpy as np
+import plotly.graph_objects as go
+import numpy as np
 
-	# Data to be plotted
-	x = np.outer(np.linspace(-2, 2, 30), np.ones(30))
-	y = x.copy().T
-	z = np.cos(x ** 2 + y ** 2)
+# Data to be plotted
+x = np.outer(np.linspace(-2, 2, 30), np.ones(30))
+y = x.copy().T
+z = np.cos(x ** 2 + y ** 2)
 
-	# plotting the figure
-	fig = go.Figure(data=[go.Surface(x=x, y=y, z=z)])
+# plotting the figure
+fig = go.Figure(data=[go.Surface(x=x, y=y, z=z)])
 
-	fig.show()
+fig.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/3DSurfacePlot.png)
 ## Interacting with the Plots
 Plotly provides various tools for interacting with the plots such as adding dropdowns, buttons, sliders, etc. These can be created using the update menu attribute of the plot layout. Let’s see how to do all such things in detail.
 
@@ -303,11 +315,7 @@ np.random.seed(42)
 random_x = np.random.randint(1, 101, 100)
 random_y = np.random.randint(1, 101, 100)
 
-plot = px.Figure(data=[px.Scatter(
-	x=random_x,
-	y=random_y,
-	mode='markers',)
-])
+plot = px.Figure(data=[px.Scatter(x=random_x,y=random_y,mode='markers',)])
 
 # Add dropdown
 plot.update_layout(
@@ -332,6 +340,7 @@ plot.update_layout(
 
 plot.show()
 ```
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/DropdownMenu.png.png)
 In the above example we have created two graphs for the same data. These plots are accessible using the dropdown menu.
 
 ### Adding Buttons to the Plot
@@ -343,84 +352,11 @@ In plotly, [**actions custom Buttons**](https://www.geeksforgeeks.org/how-to-mak
 -   **update:**  modify data and layout attributes
 -   **animate:**  start or pause an animation
 
-**Example:**
-```Python
-import plotly.graph_objects as px
-import pandas as pd
 
-# reading the database
-data = pd.read_csv("tips.csv")
-
-
-plot = px.Figure(data=[px.Scatter(
-	x=data['day'],
-	y=data['tip'],
-	mode='markers',)
-])
-
-# Add dropdown
-plot.update_layout(
-	updatemenus=[
-		dict(
-			type="buttons",
-			direction="left",
-			buttons=list([
-				dict(
-					args=["type", "scatter"],
-					label="Scatter Plot",
-					method="restyle"
-				),
-				dict(
-					args=["type", "bar"],
-					label="Bar Chart",
-					method="restyle"
-				)
-			]),
-		),
-	]
-)
-
-plot.show()
-```
-In this example also we are creating two different plots on the same data and both plots are accessible by the buttons.
 ### Creating Sliders and Selectors to the Plot
 
-In plotly, the  [**range slider**](https://www.geeksforgeeks.org/how-to-make-range-slider-and-selector-in-plotly/)  is a custom range-type input control. It allows selecting a value or a range of values between a specified minimum and maximum range. And the range selector is a tool for selecting ranges to display within the chart. It provides buttons to select pre-configured ranges in the chart. It also provides input boxes where the minimum and maximum dates can be manually input.
-
-**Example:**
-```Python
-	import plotly.graph_objects as px
-	import plotly.express as go
-	import numpy as np
-
-	df = go.data.tips()
-
-	x = df['total_bill']
-	y = df['day']
-
-	plot = px.Figure(data=[px.Scatter(
-		x=x,
-		y=y,
-		mode='lines',)
-	])
-
-	plot.update_layout(
-		xaxis=dict(
-			rangeselector=dict(
-				buttons=list([
-					dict(count=1,
-						step="day",
-						stepmode="backward"),
-				])
-			),
-			rangeslider=dict(
-				visible=True
-			),
-		)
-	)
-
-	plot.show()
-```
+In plotly, the **range slider** is a custom range-type input control. It allows selecting a value or a range of values between a specified minimum and maximum range. And the range selector is a tool for selecting ranges to display within the chart. It provides buttons to select pre-configured ranges in the chart. It also provides input boxes where the minimum and maximum dates can be manually input.
+[**Learn More here**](https://www.geeksforgeeks.org/how-to-make-range-slider-and-selector-in-plotly/)
 
 ## More Plots using Plotly
 
