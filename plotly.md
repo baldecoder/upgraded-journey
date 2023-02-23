@@ -2,6 +2,13 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly-logo.png/1200px-Plotly-logo.png)
 
+# Table of contents
+1. [Installation](#installation)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+
+
 #### What is it? 
 Python Plotly is a high-level and open-source data visualization package that allows you to create interactive plots with very little code. It supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific,...
 #### Why to use it?
@@ -30,7 +37,7 @@ We use plotly for many different reasons:
 **Yes.**  Plotly has commercial offerings such as  [Dash Enterprise](https://plotly.com/dash)  and  [Chart Studio Enterprise](https://plotly.com/online-chart-maker/).
 
 ---
-### **Installation**
+### **Installation** <a name="installation"></a>
 **Plotly** does not come built-in with Python. To install it, type the below command in the terminal:
 
     pip install plotly
@@ -44,7 +51,8 @@ There are three main modules in Plotly. They are:
 -   **plotly.tools**: _contains various tools in the forms of the functions that can enhance the Plotly experience._
 ### Some Chart with plotly
 With plotly we can create more than 40 charts and every plot can be created using the plotly.express and plotly.graph_objects class. Let’s see some commonly used charts with the help of Plotly.
-1. **Line Chart**
+1.  **Line Chart**
+
 **Line plot** in Plotly is much accessible and illustrious annexation to plotly which manage a variety of types of data and assemble easy-to-style statistic. With **px.line** each data position is represented as a vertex (which location is given by the x and y columns) of a polyline mark in 2D space.
 
 **Example 1:**
