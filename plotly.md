@@ -1,8 +1,6 @@
 # Plotly 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly-logo.png/1200px-Plotly-logo.png)![](https://github.com/baldecoder/upgraded-journey/blob/master/img/Logo.png)
-
-
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly-logo.png/1200px-Plotly-logo.png)
 
 #### What is it? 
 Python Plotly is a high-level and open-source data visualization package that allows you to create interactive plots with very little code. It supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific,...
@@ -59,6 +57,8 @@ With plotly we can create more than 40 charts and every plot can be created usin
 	# showing the plot
 	fig.show()
 ```
+!["LinePlot Image"]("https://github.com/baldecoder/upgraded-journey/blob/master/img/LinePlot.PNG")
+
 **Example 2:**
 ```Python
 import plotly.express as px
