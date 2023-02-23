@@ -3,10 +3,33 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly-logo.png/1200px-Plotly-logo.png)
 
 # Table of contents
-1. [Installation](#installation)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+**[Plotly]()**  
+**[Why to use it?]()**  
+**[Is Plotly for Python Free?]()**  
+**[Can I use Plotly for Python without signing up to any service?]()**  
+**[Can I use Plotly for Python offline, without being connected to the internet?]()**  
+**[Does Plotly also make commercial software?]()**
+1. **[Installation](#installation)**s
+   - [Package Structure](#PackageStructure)
+2. [Some Chart with plotly](#Some_Chart_with_plotly)
+   1. [Line chart](#subparagraph1)
+   2. [Bar chart](#subparagraph1)
+   3. [Histogramm](#subparagraph1)
+   4. [Scatter Plot and Bubble charts](#subparagraph1)
+   5. [Pie Charts](#subparagraph1)
+   6. [Box Plots](#subparagraph1)
+   7. [Violin plot](#subparagraph1)
+   8. [Gantt Charts](#subparagraph1)
+   9. [3D Line Plots](#subparagraph1)
+   10. [3D Scatter Plot](#subparagraph1)
+   11. [3D Surface Plots](#subparagraph1)
+3. [Interacting with the Plots](#paragraph2)
+   4. [Creating Dropdown Menu in Plotly](#paragraph2)
+   5. [Adding Buttons to the Plot](#paragraph2)
+   6. [Creating Sliders and Selectors to the Plot](#paragraph2)
+4. [More Plots using Plotly](#paragraph2)
+5. [More Topics on Plotly](#paragraph2)
+6. [More Topics on Python Data scientist libraries](#paragraph2)
 
 
 #### What is it? 
@@ -42,14 +65,14 @@ We use plotly for many different reasons:
 
     pip install plotly
  This may take some time as it will install the dependencies as well.
- #### Package Structure of Plotly
+ #### Package Structure of Plotly <a name="PackageStructure"></a>
 There are three main modules in Plotly. They are:
 -   **plotly.plotly**: _acts as the interface between the local machine and Plotly. It contains functions that require a response from Plotly’s server._
 -   **plotly.graph.objects**: _module contains the objects (Figure, layout, data, and the definition of the plots like scatter plot, line chart) that are responsible for creating the plots._
 
 	**Note:** _plotly.express module can create the entire Figure at once. It uses the graph_objects internally and returns the graph_objects.Figure instance._
 -   **plotly.tools**: _contains various tools in the forms of the functions that can enhance the Plotly experience._
-### Some Chart with plotly
+### Some Chart with plotly <a name="Some_Chart_with_plotly"></a>
 With plotly we can create more than 40 charts and every plot can be created using the plotly.express and plotly.graph_objects class. Let’s see some commonly used charts with the help of Plotly.
 1.  **Line Chart**
 
