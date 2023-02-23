@@ -57,7 +57,7 @@ With plotly we can create more than 40 charts and every plot can be created usin
 	# showing the plot
 	fig.show()
 ```
-!["LinePlot Image"]("C:\Users\BALDE\Desktop\upgraded-journey\img\LinePlot.png")
+![](https://github.com/baldecoder/upgraded-journey/blob/master/img/LinePlot.png)
 
 **Example 2:**
 ```Python
