@@ -65,7 +65,7 @@ We use plotly for many different reasons:
 
     pip install plotly
  This may take some time as it will install the dependencies as well.
- #### Package Structure of Plotly <a name="PackageStructure"></a>
+ #### Package Structure of Plotly 	<a name="PackageStructure"></a>
 There are three main modules in Plotly. They are:
 -   **plotly.plotly**: _acts as the interface between the local machine and Plotly. It contains functions that require a response from Plotly’s server._
 -   **plotly.graph.objects**: _module contains the objects (Figure, layout, data, and the definition of the plots like scatter plot, line chart) that are responsible for creating the plots._
@@ -458,3 +458,5 @@ In plotly, the **range slider** is a custom range-type input control. It allows 
 ## More Topics on Python Data scientist libraries
 -   [GeoPandas](https://geopandas.org/en/stable/)
 -   [Polar](https://www.pola.rs/)
+
+## Documentation
