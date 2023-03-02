@@ -5,32 +5,32 @@
 # Table of contents
 **[Plotly](#)**  
 **[Why to use it?](#)**  
-**[Is Plotly for Python Free?]()**  
-**[Can I use Plotly for Python without signing up to any service?]()**  
-**[Can I use Plotly for Python offline, without being connected to the internet?]()**  
-**[Does Plotly also make commercial software?]()**
-1. **[Installation](#installation)**  
-   - **[Package Structure]()**
-2. **[Some Chart with plotly]()**
-   1. **[Line chart]()**
-   2. **[Bar chart]()**
-   3. **[Histogramm]()**
-   4. **[Scatter Plot and Bubble charts]()**
-   5. **[Pie Charts]()**
-   6. **[Box Plots]()**
-   7. **[Violin plot]()**
-   8. **[Gantt Charts]()**
-   9. **[3D Line Plots]()**
-   10. **[3D Scatter Plot]()**
-   11. **[3D Surface Plots]()**
-3. **[Interacting with the Plots]()**
-   4. **[Creating Dropdown Menu in Plotly]()**
-   5. **[Adding Buttons to the Plot]()**
-   6. **[Creating Sliders and Selectors to the Plot]()**
-4. **[More Plots using Plotly]()**
-5. **[More Topics on Plotly]()**
-6. **[More Topics on Python Data scientist libraries]()**
-7. **[Documentation]()**
+**[Is Plotly for Python Free?](#)**  
+**[Can I use Plotly for Python without signing up to any service?](#)**  
+**[Can I use Plotly for Python offline, without being connected to the internet?](#)**  
+**[Does Plotly also make commercial software?](#)**
+1. **[Installation](#)**  
+   - **[Package Structure](#)**
+2. **[Some Chart with plotly](#)**
+   1. **[Line chart](#)**
+   2. **[Bar chart](#)**
+   3. **[Histogramm](#)**
+   4. **[Scatter Plot and Bubble charts](#)**
+   5. **[Pie Charts](#)**
+   6. **[Box Plots](#)**
+   7. **[Violin plot](#)**
+   8. **[Gantt Charts](#)**
+   9. **[3D Line Plots](#)**
+   10. **[3D Scatter Plot](#)**
+   11. **[3D Surface Plots](#)**
+3. **[Interacting with the Plots](#)**
+   4. **[Creating Dropdown Menu in Plotly](#)**
+   5. **[Adding Buttons to the Plot](#)**
+   6. **[Creating Sliders and Selectors to the Plot](#)**
+4. **[More Plots using Plotly](#)**
+5. **[More Topics on Plotly](#)**
+6. **[More Topics on Python Data scientist libraries](#)**
+7. **[Documentation](#)**
 
 
 #### What is it? 
