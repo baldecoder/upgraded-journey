@@ -460,3 +460,9 @@ In plotly, the **range slider** is a custom range-type input control. It allows 
 -   [Polar](https://www.pola.rs/)
 
 ## Documentation
+-   [Plotly Youtube Tuto](https://www.youtube.com/watch?v=GGL6U0k8WYA)
+-   [Geeksforgeeks plotly tutorial](https://www.geeksforgeeks.org/python-plotly-tutorial/)
+-   [Plotly official documentation](https://plotly.com/python/plotly-express/)
+-   [Plotly vs Matplotlib](https://www.youtube.com/watch?v=GzUVacnrgFc)
+
+
