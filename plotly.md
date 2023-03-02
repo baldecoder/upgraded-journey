@@ -10,26 +10,27 @@
 **[Can I use Plotly for Python offline, without being connected to the internet?]()**  
 **[Does Plotly also make commercial software?]()**
 1. **[Installation](#installation)**  
-   - [Package Structure](#PackageStructure)
-2. [Some Chart with plotly](#Some_Chart_with_plotly)
-   1. [Line chart](#subparagraph1)
-   2. [Bar chart](#subparagraph1)
-   3. [Histogramm](#subparagraph1)
-   4. [Scatter Plot and Bubble charts](#subparagraph1)
-   5. [Pie Charts](#subparagraph1)
-   6. [Box Plots](#subparagraph1)
-   7. [Violin plot](#subparagraph1)
-   8. [Gantt Charts](#subparagraph1)
-   9. [3D Line Plots](#subparagraph1)
-   10. [3D Scatter Plot](#subparagraph1)
-   11. [3D Surface Plots](#subparagraph1)
-3. [Interacting with the Plots](#paragraph2)
-   4. [Creating Dropdown Menu in Plotly](#paragraph2)
-   5. [Adding Buttons to the Plot](#paragraph2)
-   6. [Creating Sliders and Selectors to the Plot](#paragraph2)
-4. [More Plots using Plotly](#paragraph2)
-5. [More Topics on Plotly](#paragraph2)
-6. [More Topics on Python Data scientist libraries](#paragraph2)
+   - **[Package Structure]()**
+2. **[Some Chart with plotly]()**
+   1. **[Line chart]()**
+   2. **[Bar chart]()**
+   3. **[Histogramm]()**
+   4. **[Scatter Plot and Bubble charts]()**
+   5. **[Pie Charts]()**
+   6. **[Box Plots]()**
+   7. **[Violin plot]()**
+   8. **[Gantt Charts]()**
+   9. **[3D Line Plots]()**
+   10. **[3D Scatter Plot]()**
+   11. **[3D Surface Plots]()**
+3. **[Interacting with the Plots]()**
+   4. **[Creating Dropdown Menu in Plotly]()**
+   5. **[Adding Buttons to the Plot]()**
+   6. **[Creating Sliders and Selectors to the Plot]()**
+4. **[More Plots using Plotly]()**
+5. **[More Topics on Plotly]()**
+6. **[More Topics on Python Data scientist libraries]()**
+7. **[Documentation]()**
 
 
 #### What is it? 
