@@ -3,8 +3,8 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plotly-logo.png/1200px-Plotly-logo.png)
 
 # Table of contents
-**[Plotly]()**  
-**[Why to use it?]()**  
+**[Plotly](#)**  
+**[Why to use it?](#)**  
 **[Is Plotly for Python Free?]()**  
 **[Can I use Plotly for Python without signing up to any service?]()**  
 **[Can I use Plotly for Python offline, without being connected to the internet?]()**  
