@@ -23,10 +23,10 @@
    9. **[3D Line Plots](#)**
    10. **[3D Scatter Plot](#)**
    11. **[3D Surface Plots](#)**
-3. **[Interacting with the Plots](#)**
-   4. **[Creating Dropdown Menu in Plotly](#)**
-   5. **[Adding Buttons to the Plot](#)**
-   6. **[Creating Sliders and Selectors to the Plot](#)**
+3. **[Interacting with the Plots](#)**  
+   1. **[Creating Dropdown Menu in Plotly](#)**
+   2. **[Adding Buttons to the Plot](#)**
+   3. **[Creating Sliders and Selectors to the Plot](#)**
 4. **[More Plots using Plotly](#)**
 5. **[More Topics on Plotly](#)**
 6. **[More Topics on Python Data scientist libraries](#)**
